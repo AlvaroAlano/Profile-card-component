@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.container{
+  background-color: #fff;
+  width: 350px;
+  height: 410px;
+  font-family: 'Kumbh Sans', sans-serif;
+  border-radius: 15px;
+}
+.image-top{
+  height: 150px;
+  background: url(/images/bg-pattern-card.svg);
+  border-radius: 15px 15px 0 0;
+}
+.image-user{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -54px;
+}
+.image-user img{
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+.desc-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+.desc-1 span{
+  font-size: 20px;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-left: 10px;
+}
+.desc-2 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 59%);
+  margin-top: -5px;
+  margin-bottom: 30px;
+}
+h1{
+  font-size: 20px;
+}
+.border{
+  border: 1px solid hsl(0, 0%, 90%);
+}
+.area-bottom{
+  display: flex;
+  padding: 10px 40px;
+  justify-content: space-between;
+}
+.area-bottom h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.area-bottom span{
+  font-size: 11px;
+  color: hsl(0, 0%, 59%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: -8px;
+  letter-spacing: 1px;
+}
